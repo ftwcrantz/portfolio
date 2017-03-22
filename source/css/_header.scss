@@ -1,0 +1,19 @@
+header {
+  height: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  .logo {
+    img {
+      float: left;
+      width: 70px;
+    }
+  }
+  ul {
+    float: right;
+    li {
+      display: inline-block;
+      line-height: 70px;
+      margin-left: 20px;
+    }
+  }
+}

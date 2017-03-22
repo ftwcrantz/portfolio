@@ -1,0 +1,99 @@
+/* Welcome to type.scss - Here are rules that controls all typefaces on the
+page. Add your settings here before you create your page so you know where
+to use what font and size */
+
+html {
+  font-size: $main-font-size;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color: $pri_text;
+  line-height: 1.5;
+  text-align: center;
+}
+
+// headers
+h1, h2, h3, h4, h5, h6 {
+  color: $pri_text;
+  font-family: 'Fira Sans Medium', sans-serif;
+  letter-spacing: 0;
+  text-align: left;
+}
+h1 {
+  @include x-rem(font-size, 7);
+  color: $pri_purple;
+  line-height: 1.2;
+  padding-bottom: 20px;
+  @include single-column {
+    @include x-rem(font-size, 2.6);
+  }
+}
+
+h2 {
+  @include x-rem(font-size, 3);
+  color: $pri_purple;
+  line-height: 1.2;
+  padding-bottom: 20px;
+  @include single-column {
+    @include x-rem(font-size, 2.6);
+  }
+}
+
+p.text-intro {
+  @include x-rem(font-size, 2.4);
+  line-height: 1.6;
+  width: 70%;
+  @include single-column {
+    @include x-rem(font-size, 1.4);
+  }
+}
+
+p.card-text {
+  margin-bottom: 5px;
+}
+
+h3 {
+  @include x-rem(font-size, 2);
+  font-weight: bold;
+}
+
+// Text
+p {
+  @include x-rem(font-size, 1.6  );
+  margin-bottom: 1.5em;
+  text-align: left;
+  @include single-column {
+    @include x-rem(font-size, 1.9);
+  }
+}
+
+p.small {
+  @include x-rem(font-size, 1.2);
+}
+
+
+
+// Links
+a {
+  @include x-rem(font-size, 1.6);
+  color: $sec_red;
+  font-weight: bold;
+  font-family: 'Fira Sans', sans-serif;
+  &:hover {
+    color: rgba(0,0,0,0.5);
+  }
+}
+a.bright {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  &:hover {
+    color: rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+  }
+}

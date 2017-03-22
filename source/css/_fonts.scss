@@ -1,0 +1,23 @@
+/* Welcome to fonts.scss - Here are rules that control your fonts.
+Put your fonts in the fonts/ folder and add them accordingly here.
+Remember to remove the slashes in front of the rows */
+
+@charset "UTF-8";
+
+/* Fira Sans 540 */
+@font-face {
+  font-family: 'Fira Sans';
+  font-weight: normal;
+  font-style: normal;
+  src:  url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+}
+
+
+@font-face {
+  font-family: 'Fira Sans Medium';
+  font-weight: normal;
+  font-style: normal;
+  src:  url('https://fonts.googleapis.com/css?family=Fira+Sans:500');
+
+}

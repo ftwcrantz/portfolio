@@ -1,0 +1,27 @@
+.quote {
+  background-color: #26D7E7;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  p {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-grid .col {
+  width: 33%;
+}
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.flex-grid-thirds .col {
+  width: 32%;
+}
