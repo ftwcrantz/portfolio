@@ -30,6 +30,7 @@ h1 {
   color: $pri_purple;
   line-height: 1.2;
   padding-bottom: 20px;
+  padding-top: 40px;
   @include single-column {
     @include x-rem(font-size, 2.6);
   }
@@ -39,7 +40,8 @@ h2 {
   @include x-rem(font-size, 3);
   color: $pri_purple;
   line-height: 1.2;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  margin-top: 20px;
   @include single-column {
     @include x-rem(font-size, 2.6);
   }
@@ -49,6 +51,7 @@ p.text-intro {
   @include x-rem(font-size, 2.4);
   line-height: 1.6;
   width: 70%;
+  margin-bottom: 100px;
   @include single-column {
     @include x-rem(font-size, 1.4);
   }
@@ -57,6 +60,8 @@ p.text-intro {
 p.card-text {
   margin-bottom: 5px;
 }
+
+
 
 h3 {
   @include x-rem(font-size, 2);
@@ -87,13 +92,5 @@ a {
   font-family: 'Fira Sans', sans-serif;
   &:hover {
     color: rgba(0,0,0,0.5);
-  }
-}
-a.bright {
-  color: #fff;
-  border-bottom: 1px solid #fff;
-  &:hover {
-    color: rgba(255,255,255,0.5);
-    border-bottom: 1px solid rgba(255,255,255,0.5);
   }
 }
