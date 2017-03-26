@@ -15,7 +15,7 @@ body {
   text-rendering: optimizeLegibility;
   color: $pri_text;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 
 // headers
@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Fira Sans Medium', sans-serif;
   letter-spacing: 0;
   text-align: left;
+  font-weight: bold;
 }
 h1 {
   @include x-rem(font-size, 7);
