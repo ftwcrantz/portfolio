@@ -51,7 +51,7 @@ p.text-intro {
   @include x-rem(font-size, 2.4);
   line-height: 1.6;
   width: 70%;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   @include single-column {
     @include x-rem(font-size, 1.4);
   }
