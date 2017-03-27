@@ -41,6 +41,7 @@
 
 .svg-icons {
   width: 30px;
+  vertical-align: top;
 
 }
 
@@ -51,4 +52,12 @@
 
 .arrow-icon {
   margin-left: 5px;
+}
+
+.dotted_list {
+  list-style: circle;
+}
+
+.case_margin {
+  margin-bottom: 40px;
 }
