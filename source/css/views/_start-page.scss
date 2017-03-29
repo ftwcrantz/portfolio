@@ -61,3 +61,16 @@
 .case_margin {
   margin-bottom: 40px;
 }
+
+.no_border {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.case_link {
+  border-bottom: 1px solid;
+  display: inherit;
+  img {
+    margin-bottom: -1px;
+  }
+}

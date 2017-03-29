@@ -91,6 +91,8 @@ a {
   color: $sec_red;
   font-weight: bold;
   font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  border-bottom: 1px solid;
   &:hover {
     color: rgba(0,0,0,0.5);
   }
