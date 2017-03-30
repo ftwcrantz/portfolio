@@ -19,10 +19,10 @@ function recentLFM(user,apikey,limit,container) {
             if(counter < (limit)) {
 	            if(item.image[1]['#text']=='') { // Check if image is null
 //					console.log('Null');
-					html += '<li class="lfm-track"><span class="lfm-trackname">'+item.name+'</span><i>'+divider+'</i><span class="lfm-artist">' + item.artist['#text'] + '</span></li>';
+					html += '<li class="lfm-track"><span class="lfm-artist">' + item.artist['#text'] + '</span><i>'+divider+'</i><span class="lfm-trackname">'+item.name+'</span></li>';
 				} else {
 //					console.log('img: '+item.image[1]['#text']);
-					html += '<li class="lfm-track"><span class="lfm-trackname">'+item.name+'</span><i>'+divider+'</i><span class="lfm-artist">' + item.artist['#text'] + '</span></li>';
+					html += '<li class="lfm-track"><span class="lfm-artist">' + item.artist['#text'] + '</span><i>'+divider+'</i><span class="lfm-trackname">'+item.name+'</span></li>';
 				}	            
 				
             } // close the if statement
