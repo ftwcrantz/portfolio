@@ -1,3 +1,20 @@
 .footer {
   margin-top: 30px;
 }
+
+.contact-me {
+	.row {
+		padding: 30px 0;
+	}
+	.contact-msg {
+		@include single-column {
+			margin-bottom: 20px;
+		}
+	}
+	ul {
+		margin-top: 6px;
+		li {
+			margin-bottom: 15px;
+		}
+	}
+}

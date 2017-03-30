@@ -99,10 +99,35 @@
 
 .flex-grid-fours .col {
   width: 24%;
+  @include single-column {
+    width: 48%;
+    margin-bottom: 15px;
+    h3 {
+      @include x-rem(font-size, 1.4);
+      line-height: 1.2;
+    }
+    span {
+      @include x-rem(font-size, 1.2);
+      line-height: 1.2;
+    }
+  }
+}
+
+#toggle {
+  align-self: center;
 }
 
 .flex-grid-thirds .col {
   width: 32%;
+  @include single-column {
+    width: 50%;
+    h3 {
+      @include x-rem(font-size, 1.8);
+    }
+    .card-text {
+      @include x-rem(font-size, 1.4);
+    }
+  }
 }
 
 .right {
@@ -119,6 +144,9 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    @include single-column {
+      width: 100%;
+    }
   }
 }
 
@@ -138,21 +166,14 @@
 
 .section_margin {
   margin-bottom: 50px;
+  @include single-column {
+    margin-bottom: 40px;
+  }
 }
 
 .no_border {
   text-decoration: none;
   border-bottom: none;
-}
-
-.contact-list {
-  display: inline;
-  margin-left: 2px;
-}
-
-.contact_li {
-  display: inline-block;
-  margin-right: 20px;
 }
 
 .case_text {
@@ -166,6 +187,7 @@
 .case_link {
   border-bottom: 1px solid;
   display: inherit;
+  @include x-rem(font-size, 1.6);
   img {
     margin-bottom: -1px;
   }
