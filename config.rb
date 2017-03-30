@@ -3,7 +3,6 @@
 ###
 
 # Per-page layout changes:
-#
 # With no layout
 page '/*.xml', layout: false
 page '/*.json', layout: false
