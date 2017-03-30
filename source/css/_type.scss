@@ -52,9 +52,18 @@ p.text-intro {
   @include x-rem(font-size, 2.4);
   line-height: 1.6;
   width: 70%;
-  margin-bottom: 70px;
   @include single-column {
     @include x-rem(font-size, 1.4);
+  }
+}
+
+p.text-footer {
+  @include x-rem(font-size, 2.2);
+  line-height: 1.4;
+  width: 80%;
+  margin-bottom: 15px;
+  @include single-column {
+    @include x-rem(font-size, 2);
   }
 }
 
@@ -62,7 +71,9 @@ p.card-text {
   margin-bottom: 5px;
 }
 
-
+span.color {
+  color: $sec_red;
+}
 
 h3 {
   @include x-rem(font-size, 2);
@@ -71,7 +82,7 @@ h3 {
 
 // Text
 p {
-  @include x-rem(font-size, 1.6  );
+  @include x-rem(font-size, 1.8  );
   margin-bottom: 1.5em;
   text-align: left;
   @include single-column {
@@ -87,13 +98,13 @@ p.small {
 
 // Links
 a {
-  @include x-rem(font-size, 1.6);
+  @include x-rem(font-size, 1.8);
   color: $sec_red;
   font-weight: bold;
   font-family: 'Fira Sans', sans-serif;
   text-decoration: none;
   border-bottom: 1px solid;
   &:hover {
-    color: rgba(0,0,0,0.5);
+    color: #C72F50;
   }
 }
