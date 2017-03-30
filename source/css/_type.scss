@@ -84,6 +84,7 @@ h3 {
 p {
   @include x-rem(font-size, 1.8  );
   text-align: left;
+  margin-bottom: 15px;
   @include single-column {
     @include x-rem(font-size, 1.9);
   }
