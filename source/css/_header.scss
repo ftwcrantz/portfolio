@@ -3,28 +3,39 @@ header {
   margin-top: 30px;
   margin-bottom: 30px;
   .logo {
-    .floating {
-      -moz-animation: float 3s infinite ease-in-out;
-      -webkit-animation: float 3s infinite ease-in-out;
-      animation: float 3s infinite ease-in-out;
-    }
-    .shadow {
-      width: 65px;
-      height: 10px;
-      position: absolute;
-      top: 85px;
-      margin-left: 3px;
-      background-color: rgba(0,0,0,0.3);
-      border-radius: 50%;
-      &.scale {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    display: block;
+    cursor: pointer;
+    a {
+      display: block;
+      border-bottom: 0;
+      img {
+        width: 100%;
+        height: auto;
+        vertical-align: top;
+        margin-bottom: 0;
+      }
+      .float {
+        -moz-animation: float 3s infinite ease-in-out;
+        -webkit-animation: float 3s infinite ease-in-out;
+        animation: float 3s infinite ease-in-out;
+      }
+      .shadow {
+        width: 46px;
+        height: 8px;
+        position: absolute;
+        top: 45px;
+        margin-left: 3px;
+        background-color: rgba(0,0,0,0.3);
+        border-radius: 50%;
+      }
+      .scale {
         -moz-animation: scale 3s infinite ease-in-out;
         -webkit-animation: scale 3s infinite ease-in-out;
         animation: scale 3s infinite ease-in-out;
       }
-    }
-    img {
-      float: left;
-      width: 70px;
     }
   }
   ul {
@@ -36,3 +47,14 @@ header {
     }
   }
 }
+
+@-webkit-keyframes scale{from{-webkit-transform:scale(.9)}65%{-webkit-transform:scale(1)}to{-webkit-transform:scale(.9)}}
+@-moz-keyframes scale{from{-moz-transform:scale(.9)}65%{-moz-transform:scale(1)}to{-moz-transform:scale(.9)}}
+@-ms-keyframes scale{from{-ms-transform:scale(.9)}65%{-ms-transform:scale(1)}to{-ms-transform:scale(.9)}}
+@keyframes scale{from{transform:scale(.9)}65%{transform:scale(1)}to{transform:scale(.9)}}
+
+@-webkit-keyframes float{from{-webkit-transform:translate(0,0)}65%{-webkit-transform:translate(0,7px)}to{-webkit-transform:translate(0,0)}}
+@-moz-keyframes float{from{-moz-transform:translate(0,0)}65%{-moz-transform:translate(0,7px)}to{-moz-transform:translate(0,0)}}
+@-ms-keyframes float{from{-ms-transform:translate(0,0)}65%{-ms-transform:translate(0,7px)}to{-ms-transform:translate(0,0)}}
+@keyframes float{from{transform:translate(0,0)}65%{transform:translate(0,7px)}to{transform:translate(0,0)}}
+
