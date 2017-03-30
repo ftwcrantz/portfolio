@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
     <title>arrow-right - FontAwesome</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="15" font-family="FontAwesome" font-weight="normal">
-        <g id="Ikoner-/-Pil-Höger" transform="translate(0.000000, -15.000000)" fill="#FA3D65">
-            <text id="arrow-right---FontAwesome">
-                <tspan x="0" y="27"></tspan>
-            </text>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ikoner-/-Pil-Höger" transform="translate(0.000000, -2.000000)" fill="#FA3D65">
+            <path d="M13.2272144,9.80357143 C13.2272144,10.1270647 13.1163896,10.3996336 12.8947368,10.6212864 L7.0449294,16.4710939 C6.81129537,16.6927467 6.53872642,16.8035714 6.22721438,16.8035714 C5.92169295,16.8035714 5.65211927,16.6927467 5.41848524,16.4710939 L4.74454429,15.7971529 C4.51690087,15.5695095 4.40308087,15.2969406 4.40308087,14.9794379 C4.40308087,14.6619353 4.51690087,14.3893663 4.74454429,14.1617229 L7.37740693,11.5288603 L1.05134788,11.5288603 C0.739835841,11.5288603 0.486736104,11.4165379 0.292041078,11.1918898 C0.0973460526,10.9672417 0,10.6961704 0,10.3786677 L0,9.22847515 C0,8.91097249 0.0973460526,8.63990118 0.292041078,8.41525307 C0.486736104,8.19060497 0.739835841,8.0782826 1.05134788,8.0782826 L7.37740693,8.0782826 L4.74454429,5.43643407 C4.51690087,5.22077189 4.40308087,4.95119821 4.40308087,4.62770493 C4.40308087,4.30421166 4.51690087,4.03463798 4.74454429,3.81897579 L5.41848524,3.14503484 C5.64612865,2.91739143 5.91570234,2.80357143 6.22721438,2.80357143 C6.54471703,2.80357143 6.81728598,2.91739143 7.0449294,3.14503484 L12.8947368,8.99484229 C13.1163896,9.20451385 13.2272144,9.47408754 13.2272144,9.80357143 Z" id="arrow-right---FontAwesome"></path>
         </g>
     </g>
 </svg>
