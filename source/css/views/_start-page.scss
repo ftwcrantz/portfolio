@@ -21,6 +21,10 @@
     margin-bottom: 10px;
     .img-container1 {
       flex: 1;
+      @include single-column {
+        display: none;
+        flex: 0;
+      }
     }
     .img-container2 {
       flex: 1.3694;
@@ -28,9 +32,13 @@
       background-color: #26D7E7;
       position: relative;
       overflow: hidden;
+      @include single-column {
+        margin-left: 0;
+      }
       .music-meta {
         text-align: center;
-        max-width: 250px;
+        width: 100%;
+        padding: 2%;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -40,16 +48,24 @@
         transform: translateX(-50%) translateY(-50%);
         span {
           color: #fff;
-          @include x-rem(font-size, 2.4);
+          @include x-rem(font-size, 2.1);
           display: block;
-          line-height: 25px;
+          line-height: 1.2;
+          @include single-column {
+            @include x-rem(font-size, 1.4);
+          }
         }
-        i {
+        span {
           color: #fff;
+          line-height: 1.2;
         }
         .note-icon {
           width: 35px;
           margin: 0 auto 15px auto;
+          @include single-column {
+            width: 15px;
+            margin: 0 auto 5px auto;
+          }
         }
       }
     }
