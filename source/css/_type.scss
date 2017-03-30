@@ -30,11 +30,15 @@ h1 {
   @include x-rem(font-size, 7);
   color: $pri_purple;
   line-height: 1.2;
-  padding-bottom: 40px;
-  padding-top: 40px;
+  margin-bottom: 40px;
+  margin-top: 40px;
   @include single-column {
     @include x-rem(font-size, 2.6);
   }
+}
+h1.alt {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 h2 {
@@ -52,7 +56,8 @@ p.text-intro {
   line-height: 1.6;
   width: 85%;
   @include single-column {
-    @include x-rem(font-size, 1.4);
+    @include x-rem(font-size, 1.6);
+    width: 100%;
   }
 }
 
@@ -62,7 +67,8 @@ p.text-footer {
   width: 80%;
   margin-bottom: 15px;
   @include single-column {
-    @include x-rem(font-size, 2);
+    @include x-rem(font-size, 1.6);
+    width: 100%;
   }
 }
 
@@ -78,6 +84,9 @@ span.color {
 h3 {
   @include x-rem(font-size, 2);
   font-weight: bold;
+  @include single-column {
+    @include x-rem(font-size, 1.8);
+  }
 }
 
 // Text
@@ -86,7 +95,7 @@ p {
   text-align: left;
   margin-bottom: 15px;
   @include single-column {
-    @include x-rem(font-size, 1.9);
+    @include x-rem(font-size, 1.6);
   }
 }
 
@@ -106,5 +115,8 @@ a {
   border-bottom: 1px solid;
   &:hover {
     color: #C72F50;
+  }
+  @include single-column {
+    @include x-rem(font-size, 1.6);
   }
 }

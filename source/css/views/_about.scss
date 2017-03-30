@@ -1,3 +1,14 @@
 .about_header {
   width: 100%;
 }
+.illustration {
+	margin: 0 auto;
+  width: 80%;
+	@include single-column {
+  	text-align: center;
+  	margin-bottom: 10px;
+  	img {
+  		width: 50%;
+		}
+	}
+}
